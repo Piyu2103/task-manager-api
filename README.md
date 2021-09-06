@@ -1,9 +1,9 @@
-# task-manager-api
+# Task-Manager-API
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/rishabhpurohit/TaskManager-API/blob/main/">
+  <a href="https://github.com/Piyu2103/task-manager-api/blob/master/">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -12,14 +12,14 @@
   <p align="center">
     Taskpat facilitates uses to manage tasks according to their deadlines.
     <br />
-    <a href="https://github.com/rishabhpurohit/TaskManager-API/blob/main/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Piyu2103/task-manager-api/blob/master/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/rishabhpurohit/TaskManager-API/blob/main/README.md#usage">View Demo</a>
+    <a href="https://github.com/Piyu2103/task-manager-api/blob/master/README.md#usage">View Demo</a>
     ·
-    <a href="https://github.com/rishabhpurohit/TaskManager-API/issues">Report Bug</a>
+    <a href="https://github.com/Piyu2103/task-manager-api/issues">Report Bug</a>
     ·
-    <a href="https://github.com/rishabhpurohit/TaskManager-API/issues">Request Feature</a>
+    <a href="https://github.com/Piyu2103/task-manager-api/issues">Request Feature</a>
   </p>
 </p>
 
@@ -54,20 +54,20 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project\
+## About The Project
 
 * TaskPat facilitates users to login and perform CRUD operations on their profile and tasks added by user.
 * Utilized Multer library for uploading and Sharp library for preprocessing the user profile avatar.
 * Configured JWT for authentication token generation and Bcrypt library for password encryption.
 * Integrated SendGrid Email API for sending subscription and related emails to user's registered email-id.
 * For Database, MongoDB is used with Mongoose client to store data on an online MongoDB Atlas server.
-* Created an automated unit testing suite using the Jest framework and supertest. [Github](https://github.com/Piyu2103/task-manager-api) project repo.
+* Created an automated unit testing suite using the Jest framework and supertest.
 
 
 
 ### Built With
-* [node.js](https://nodejs.org/en/)
-* [express.js](https://expressjs.com/)
+* [Node.js](https://nodejs.org/en/)
+* [Express.js](https://expressjs.com/)
 * [MongoDB](https://www.mongodb.com/)
 
 
@@ -75,16 +75,18 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This is how to set up your project locally.
+To get a local copy up and running, follow these simple steps.
 
-### Prerequisites
+### Prerequisites 
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
   ```
+* Postman
+* VS Code
+* MongoDB Compass
 
 ### Installation
 
@@ -101,21 +103,38 @@ This is an example of how to list things you need to use the software and how to
    ```JS
    const API_KEY = 'ENTER YOUR API';
    ```
+5. Run `npm test` in the project directory to run all the test cases.
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Using [POSTMAN](https://www.postman.com/)
+* Download POSTMAN 
+* Import the postman collection from [here](https://git.io/Jus1D)
+* Set the necessary environment variables, {{url}}=localhost/[portnumber] and authtoken generated {{auth}}
 
-_For more examples, please refer to the [Documentation](https://example.com)_
 
-
+### Endpoints and Routes
+* POST - Create User
+* POST - Login user
+* POST - Logout User
+* POST - Logout from all devices
+* POST - Create Task
+* POST - Upload Avatar
+* GET - Read profile
+* GET - Read user
+* GET - Read tasks
+* GET - Read task
+* PATCH - Update user
+* PATCH - Update task
+* DEL - Delete user
+* DEL - Delete Avatar
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/Piyu2103/task-manager-api/issues) for a list of proposed features (and known issues).
+See the [Open Issues](https://github.com/Piyu2103/task-manager-api/issues) for a list of proposed features (and known issues).
 
 
 
@@ -150,8 +169,10 @@ Project Link: [task-manager-api](https://github.com/Piyu2103/task-manager-api)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* []()
-* []()
-* []()
-* []()
+* [Postman](https://www.postman.com/)
+* [JWT](https://www.npmjs.com/package/jsonwebtoken)
+* [Jest](https://www.npmjs.com/package/jest)
+* [Multer](https://www.npmjs.com/package/multer)
+* [Sharp](https://www.npmjs.com/package/sharp)
+
 
