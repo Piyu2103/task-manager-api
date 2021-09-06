@@ -7,10 +7,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">TASKIFY - Task Manager API</h3>
+  <h3 align="center">TASKPAT - Task Manager API</h3>
 
   <p align="center">
-    Taskify facilitates uses to manage tasks according to their deadlines.
+    Taskpat facilitates uses to manage tasks according to their deadlines.
     <br />
     <a href="https://github.com/rishabhpurohit/TaskManager-API/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
@@ -54,14 +54,14 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Project\
 
-* Taskify facilitates users to login and perform CRUD operations on their profile and tasks added by them.
+* TaskPat facilitates users to login and perform CRUD operations on their profile and tasks added by user.
 * Utilized Multer library for uploading and Sharp library for preprocessing the user profile avatar.
 * Configured JWT for authentication token generation and Bcrypt library for password encryption.
-* For Database, MongoDB is used with Mongoose client to store data on an online MongoDB Atlas server.
 * Integrated SendGrid Email API for sending subscription and related emails to user's registered email-id.
-* Created an automated unit testing suite using the Jest framework and supertest.[Github](https://github.com/rishabhpurohit/TaskManager-API) project repo.
+* For Database, MongoDB is used with Mongoose client to store data on an online MongoDB Atlas server.
+* Created an automated unit testing suite using the Jest framework and supertest. [Github](https://github.com/Piyu2103/task-manager-api) project repo.
 
 
 
@@ -91,7 +91,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free SendGrid Email API Key at [Send Grid](https://sendgrid.com/solutions/email-api/)
 2. Clone the repo
    ```sh
-   git clone https://github.com/rishabhpurohit/TaskManager-API
+   git clone https://github.com/Piyu2103/task-manager-api
    ```
 3. Install NPM packages
    ```sh
@@ -115,7 +115,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/rishabhpurohit/TaskManager-API/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Piyu2103/task-manager-api/issues) for a list of proposed features (and known issues).
 
 
 
@@ -142,9 +142,9 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [Rishabh Purohit](https://github.com/rishabhpurohit) - rishabh.purohit123456789@gmail.com
+Your Name - [Piyush Singhal](https://github.com/Piyu2103) - singhalpiyush21@gmail.com
 
-Project Link: [TaskManager-API](https://github.com/rishabhpurohit/TaskManager-API)
+Project Link: [task-manager-api](https://github.com/Piyu2103/task-manager-api)
 
 
 
